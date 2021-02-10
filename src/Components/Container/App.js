@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from '../Navbar/navbar';
 import Home from '../Home/Home';
-import Car from '../Home/Caro';
 import Counter from '../Counter/Counter';
 import Ourproducts from "../OurProducts/Ourproducts";
 import Gallery from '../Gallery/gallery';
@@ -14,7 +13,6 @@ function App() {
         <div>
             <Navbar/>
             <Home/>
-            <Car/>
             <Counter />
             <Ourproducts/>
             <Gallery/>
