@@ -1,0 +1,21 @@
+#section-about{
+    background-color: #d7f3c2;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.abt{
+    padding:10px;
+    display:flex;
+}
+
+.image{
+    max-height:500px;
+    width:100%;
+    object-fit: fill;
+}
+
+.ik{
+    padding-top: 40px;
+    font-weight: 400;
+    font-size:20px;
+}
