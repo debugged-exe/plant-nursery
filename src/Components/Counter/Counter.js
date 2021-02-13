@@ -4,7 +4,7 @@ import {IoFlowerOutline} from "react-icons/io5";
 import {GiPalmTree} from "react-icons/gi";
 import {GiBonsaiTree} from "react-icons/gi";
 import CountUp from 'react-countup';
-//import './counterUp.css';
+import './counterUp.css';
 const Counter = () => {
 
     const [counterArray, setCounterArray] = useState([
@@ -27,60 +27,27 @@ const Counter = () => {
     ]);
 
     return (
-
-        <section className='w-100'>
-
-            <div className='flex justify-around row tc w-100' style={{marginLeft: '5px', marginRight: '5px'}}>
-                <div style={{ background: 'none'}}
-                     className='ba w-25 pa2 mr2'>
-                    <SiAerlingus size='3.5rem'/>
-                    <p className='f1 mv0 b'>
-                        <CountUp start={0} end={counterArray[0].count} delay={0} duration={20}>
-                            {({countUpRef}) => (
-                                <span ref={countUpRef}/>
-                            )}
-                        </CountUp>
-                    </p>
-                    <p className='f3 b'>Plants</p>
-                </div>
-                <div style={{ background: 'none'}}
-                     className='ba w-25 pa3 mr2'>
-                    <IoFlowerOutline size='3.5rem'/>
-                    <p className='f1 mv0 b'>
-                        <CountUp start={0} end={counterArray[1].count} delay={0} duration={20}>
-                            {({countUpRef}) => (
-                                <span ref={countUpRef}/>
-                            )}
-                        </CountUp>
-                    </p>
-                    <p className='f3 b'>Flowers</p>
-                </div>
-                <div style={{ background: 'none'}}
-                     className='ba w-25 pa3 mr2'>
-                    <GiPalmTree size='3.5rem'/>
-                    <p className='f1 mv0 b'>
-                        <CountUp start={0} end={counterArray[2].count} delay={0} duration={20}>
-                            {({countUpRef}) => (
-                                <span ref={countUpRef}/>
-                            )}
-                        </CountUp>
-                    </p>
-                    <p className='f3 b'>Palm Tree</p>
-                </div>
-                <div style={{background: 'none'}}
-                     className='ba w-25 pa3 mr2'>
-                    <GiBonsaiTree size='3.5rem'/>
-                    <p className='f1 mv0 b'>
-                        <CountUp start={0} end={counterArray[3].count} delay={0} duration={20}>
-                            {({countUpRef}) => (
-                                <span ref={countUpRef}/>
-                            )}
-                        </CountUp>
-                    </p>
-                    <p className='f3 b'>Bonsai Tree</p>
-                </div>
+        <section className="f3 flex flex-wrap justify-around items-center mt4 ">
+            <div className={'flex flex-column justify-center items-center ba br2 pa4 ph5 mh2 mv2 grow shadow-2 transparent-bg'}>
+                <SiAerlingus size={"2.4rem"} className={'pa0 ma0'}/>
+                <p className={'pa0 ma0'}><CountUp end={40} duration={20}/></p>
+                <p className={'pa0 ma0'}>Bushes</p>
             </div>
-
+            <div className={'flex flex-column justify-center items-center ba br2 pa4 ph5 mh2 mv2 grow shadow-2 transparent-bg'}>
+                <IoFlowerOutline size={"2.4rem"} className={'pa0 ma0'}/>
+                <p className={'pa0 ma0'}><CountUp end={200} duration={20}/></p>
+                <p className={'pa0 ma0'}>Bushes</p>
+            </div>
+            <div className={'flex flex-column justify-center items-center ba br2 pa4 ph5 mh2 mv2 grow shadow-2 transparent-bg'}>
+                <GiPalmTree size={"2.4rem"} className={'pa0 ma0'}/>
+                <p className={'pa0 ma0'}><CountUp end={140} duration={20} /></p>
+                <p className={'pa0 ma0'}>Bushes</p>
+            </div>
+            <div className={'flex flex-column justify-center items-center ba br2 pa4 ph5 mh2 mv2 grow shadow-2 transparent-bg'}>
+                <GiBonsaiTree size={"2.4rem"} className={'pa0 ma0'}/>
+                <p className={'pa0 ma0'}><CountUp end={250} duration={20}/></p>
+                <p className={'pa0 ma0'}>Bushes</p>
+            </div>
         </section>
     );
 }

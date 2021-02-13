@@ -3,7 +3,6 @@ import img1 from './plant1.png';
 import img2 from './plant2.png';
 import img3 from './plant3.png';
 import img4 from './plant4.png';
-import * as url from "url";
 function gallery() {
     return (
         <section>

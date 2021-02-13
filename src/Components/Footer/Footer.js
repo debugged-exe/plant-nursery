@@ -54,13 +54,10 @@ function Footer() {
                     </li>
                 </ul>
             </footer>
-
             <footer className="pv4 ph3 ph5-m ph6-l white flex justify-center" style={{backgroundColor:'#015716'}}>
                 <small className="f6 db " style={{textAlign: 'center'}}>© 2021 <b className="ttu">Developed by Debugged.exe</b>., All Rights
                     Reserved</small>
             </footer>
-
-
         </div>
     );
 }

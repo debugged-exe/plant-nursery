@@ -1,39 +1,19 @@
 import React from 'react';
-import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
 import './navbar.css';
 
 function navbar() {
-    return (<Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home" id={'company-headingSize'}>React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        <Navbar.Collapse id="basic-navbar-nav" className={""}>
-            <Nav className="mr-auto">
-                <NavDropdown title="Seeds" id="basic-nav-dropdown" className={'dropdown-title-hover-color'}>
-                    <NavDropdown.Item href="#action/3.1" id={'hover-color'}>Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2" id={'hover-color'}>Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3" id={'hover-color'}>Something</NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title="Plants" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1" id={'hover-color'}>Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2" id={'hover-color'}>Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3" id={'hover-color'}>Something</NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title="Pots" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1" id={'hover-color'}>Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2" id={'hover-color'}>Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3" id={'hover-color'}>Something</NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title="Tools" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1" id={'hover-color'}>Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2" id={'hover-color'}>Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3" id={'hover-color'}>Something</NavDropdown.Item>
-                </NavDropdown>
-                <Nav.Link href="#contact" id={'basic-nav-dropdown'}>Contact Us</Nav.Link>
-                <Nav.Link href="#about" id={'basic-nav-dropdown'}>About Us</Nav.Link>
-            </Nav>
-
-        </Navbar.Collapse>
-    </Navbar>);
+    return (<nav className="db dt-l w-100 border-box pa3 ph5-l">
+        <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+            <img src="http://tachyons.io/img/logo.jpg" className="dib w2 h2 br-100" alt="Site Name"/>
+        </a>
+        <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
+            <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Home">Home</a>
+            <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="How it Works">How it Works</a>
+            <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Blog">Blog</a>
+            <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Press">Press</a>
+            <a className="link dim dark-gray f6 f5-l dib" href="#" title="Contact">Contact</a>
+        </div>
+    </nav>);
 }
 
 export default navbar;

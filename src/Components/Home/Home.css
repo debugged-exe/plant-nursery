@@ -2,14 +2,14 @@
     width: 100%;
     height:35rem;
     line-height: 1.5;
+    background: rgba(0,0,0,0.6) url('https://images.unsphttps://i.pinimg.com/originals/dc/8b/c5/dc8bc589df442903fca096c27f076ba2.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
     animation: slidingbg 20s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('https://images.unsphttps://i.pinimg.com/originals/dc/8b/c5/dc8bc589df442903fca096c27f076ba2.jpg');
-    background-blend-mode: lighten;
+    background-blend-mode: darken;
 }
 
 @keyframes slidingbg{
