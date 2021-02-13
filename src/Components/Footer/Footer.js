@@ -5,10 +5,11 @@ import "./Footer.css";
 function Footer() {
     return (
         <div className="body" style={{display: 'inline-block'}}>
-            <footer className="footer" >
+            <footer className="footer">
                 <div className="footer-left">
                     <img src={imageUrl5} alt=""/>
-                    <p className={'p1'}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                    <p className={'p1'}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum.</p>
                     <div className="socials">
@@ -52,12 +53,14 @@ function Footer() {
                         </ul>
                     </li>
                 </ul>
-                <div className="footer-bottom">
-                    <p className={'p2'}> Copyright and Developed by: <a href="#"> Debugged.exe</a></p>
-                </div>
-
-
             </footer>
+
+            <footer className="pv4 ph3 ph5-m ph6-l white flex justify-center" style={{backgroundColor:'#015716'}}>
+                <small className="f6 db " style={{textAlign: 'center'}}>© 2021 <b className="ttu">Developed by Debugged.exe</b>., All Rights
+                    Reserved</small>
+            </footer>
+
+
         </div>
     );
 }

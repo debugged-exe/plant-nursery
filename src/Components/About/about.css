@@ -1,6 +1,5 @@
 #section-about{
     background-color: #d7f3c2;
-    padding-top: 5%;
     padding-bottom: 5%;
 }
 .abt{
@@ -15,7 +14,7 @@
 }
 
 .ik{
-    padding-top: 40px;
+    padding-top: 10px;
     font-weight: 400;
     font-size:20px;
 }

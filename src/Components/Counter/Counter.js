@@ -28,11 +28,11 @@ const Counter = () => {
 
     return (
 
-        <section className='mv5'>
+        <section className='w-100'>
 
-            <div className='flex justify-center row' style={{marginLeft: '1%', marginRight: '1%'}}>
-                <div style={{width: '300px', background: 'none'}}
-                     className='ba w-25 pa3 mr2'>
+            <div className='flex justify-around row tc w-100' style={{marginLeft: '5px', marginRight: '5px'}}>
+                <div style={{ background: 'none'}}
+                     className='ba w-25 pa2 mr2'>
                     <SiAerlingus size='3.5rem'/>
                     <p className='f1 mv0 b'>
                         <CountUp start={0} end={counterArray[0].count} delay={0} duration={20}>
@@ -43,7 +43,7 @@ const Counter = () => {
                     </p>
                     <p className='f3 b'>Plants</p>
                 </div>
-                <div style={{width: '300px', background: 'none'}}
+                <div style={{ background: 'none'}}
                      className='ba w-25 pa3 mr2'>
                     <IoFlowerOutline size='3.5rem'/>
                     <p className='f1 mv0 b'>
@@ -55,7 +55,7 @@ const Counter = () => {
                     </p>
                     <p className='f3 b'>Flowers</p>
                 </div>
-                <div style={{width: '300px', background: 'none'}}
+                <div style={{ background: 'none'}}
                      className='ba w-25 pa3 mr2'>
                     <GiPalmTree size='3.5rem'/>
                     <p className='f1 mv0 b'>
@@ -67,7 +67,7 @@ const Counter = () => {
                     </p>
                     <p className='f3 b'>Palm Tree</p>
                 </div>
-                <div style={{width: '300px', background: 'none'}}
+                <div style={{background: 'none'}}
                      className='ba w-25 pa3 mr2'>
                     <GiBonsaiTree size='3.5rem'/>
                     <p className='f1 mv0 b'>

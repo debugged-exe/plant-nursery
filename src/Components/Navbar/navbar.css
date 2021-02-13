@@ -4,9 +4,16 @@
 #company-headingSize:hover{
     color: #6faf46;
 }
+#basic-nav-dropdown{
+    font-size: 1.2rem;
+}
+#basic-nav-dropdown:hover{
+    color: #6faf46;
+}
 #hover-color{
     font-size: 1.2rem;
 }
 #hover-color:hover{
-    color: #6faf46;
+    color: #ffffff;
+    background-color: #6faf46;
 }
