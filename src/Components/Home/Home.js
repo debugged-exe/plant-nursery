@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='home-background white flex justify-center items-center flex-column ph2 h-100 pt4 pv6' data-aos={'fade-up'}>
             <h1 className='w-50-m text tc mt2' data-aos={"fade-up"} data-aos-duration={'2000'}>Some Heading</h1>
-            <p className='w-50-m text tc ph3' data-aos={"fade-up"} data-aos-duration={'4000'}>It is a long established fact that a reader will be distracted by the
+            <p className='w-50-m text tc ph3' data-aos={"fade-up"} data-aos-duration={'1000'}>It is a long established fact that a reader will be distracted by the
                 readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
                 more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it
                 look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
