@@ -5,7 +5,7 @@ import img3 from './plant3.png';
 import img4 from './plant4.png';
 function gallery() {
     return (
-        <section>
+        <section style={{overflow:'hidden'}}>
             <article className="cf">
                 <div className="fl w-50 w-25-ns pa3" data-aos={'fade-down'} data-aos-duration={'2000'}>
                     <a href="https://www.amazon.com/BEYONCÉ-Beyonce/dp/B00KCOMBJC/ref=sr_1_2_twi_lp__3?s=music&ie=UTF8&qid=1480422067&sr=1-2&keywords=beyonce&tag=mrmrs01-20"
@@ -15,7 +15,7 @@ function gallery() {
                               className="bg-center cover aspect-ratio--object"></span>
                     </a>
                 </div>
-                <div className="fl w-50 w-25-ns pa3" data-aos={'fade-down'} data-aos-duration={'2000'}>
+                <div className="fl w-50 w-25-ns pa3" data-aos={'fade-up'} data-aos-duration={'2000'}>
                     <a href="https://www.amazon.com/99-9-KAYTRANADA/dp/B01D9DBNX2/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480422105&sr=1-1&keywords=kaytranada+vinyl&tag=mrmrs01-20"
                        className="db aspect-ratio aspect-ratio--1x1 dim">
                         <span role="img" aria-label="Kaytranada"
@@ -31,7 +31,7 @@ function gallery() {
                               className="bg-center cover aspect-ratio--object"></span>
                     </a>
                 </div>
-                <div className="fl w-50 w-25-ns pa3" data-aos={'fade-down'} data-aos-duration={'2000'}>
+                <div className="fl w-50 w-25-ns pa3" data-aos={'fade-up'} data-aos-duration={'2000'}>
                     <a href="https://www.amazon.com/Skin-Flume/dp/B01DD5N35W/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480422133&sr=1-1&keywords=flume&tag=mrmrs01-20"
                        className="db aspect-ratio aspect-ratio--1x1 dim">
                         <span role="img" aria-label="Skin - Flume"
