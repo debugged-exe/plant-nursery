@@ -41,10 +41,10 @@ function Ourproducts() {
                 textAlign: 'center',
                 marginBottom: '5%',
                 paddingTop: '2%'
-            }}>
+            }} data-aos={'slide-down'}>
                 Our Products
             </div>
-            <Carousel itemsToShow={1}>
+            <Carousel itemsToShow={1} data-aos={'fade-up'}>
                 <div className="mw9 center ma2 ph3-ns" style={{marginLeft: '5%', marginRight: '5%'}}>
                     <div className="cf ph2-ns">
                         <div className="db dtc-ns v-mid-ns">

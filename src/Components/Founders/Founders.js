@@ -1,15 +1,18 @@
 import React from "react";
 import './Founders.css';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 function Founders() {
     return (
         <section id={'section-founder'} >
             <div className="">
-                <h1 className="tc">
+                <h1 className="tc" data-aos="fade-up">
                     Our Founders
                 </h1>
-                <div className="flex justify-around items-center flex-wrap ">
-                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+                <div className="flex justify-around items-center flex-wrap " >
+                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-right">
                         <div className="tc">
                             <img src="http://tachyons.io/img/avatar_1.jpg" className="br-100 h3 w3 dib"
                                  title="Photo of a kitty staring at you"/>
@@ -22,7 +25,7 @@ function Founders() {
                             roll around on the floor waiting for you give her more of them.
                         </p>
                     </article>
-                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-up">
                         <div className="tc">
                             <img src="http://tachyons.io/img/avatar_1.jpg" className="br-100 h3 w3 dib"
                                  title="Photo of a kitty staring at you"/>
@@ -35,7 +38,7 @@ function Founders() {
                             roll around on the floor waiting for you give her more of them.
                         </p>
                     </article>
-                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-left">
                         <div className="tc">
                             <img src="http://tachyons.io/img/avatar_1.jpg" className="br-100 h3 w3 dib"
                                  title="Photo of a kitty staring at you" alt={'kk'}/>
