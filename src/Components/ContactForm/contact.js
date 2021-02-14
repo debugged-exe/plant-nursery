@@ -20,7 +20,7 @@ function Contact() {
                     <p data-aos={"fade-up"} data-aos-duration={'2000'}>Message</p>
                     <textarea className='bg-none br2 pr4' placeholder='Enter Email' data-aos={"fade-up"} data-aos-duration={'2000'}/>
                 </div>
-                <a class="mt4 br2 grow f4 link ph3 pv2 mb2 dib white bg-dark-green" href="#0">Send Query</a>
+                <a data-aos={"fade-up"} data-aos-duration={'2000'} class="mt4 br2 grow f4 link ph3 pv2 mb2 dib white bg-dark-green" href="#0">Send Query</a>
             </div>
         </section>
         <div className='margin'></div>

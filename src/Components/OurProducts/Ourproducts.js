@@ -41,7 +41,7 @@ function Ourproducts() {
                 textAlign: 'center',
                 marginBottom: '5%',
                 paddingTop: '2%'
-            }} data-aos={'slide-down'}>
+            }} data-aos={'slide-down'} data-aos-duration={'3000'}>
                 Our Products
             </div>
             <Carousel itemsToShow={1} data-aos={'fade-up'}>
