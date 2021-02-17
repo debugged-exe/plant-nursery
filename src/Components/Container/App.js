@@ -7,6 +7,7 @@ import AboutUs from '../About/about';
 import ContactUs from '../ContactForm/contact';
 import Founders from '../Founders/Founders';
 import Footer from '../Footer/Footer';
+import ShowPlants from '../Showplants/Showplants';
 function App() {
     return (
         <div>
@@ -18,6 +19,7 @@ function App() {
             <ContactUs/>
             <Founders/>
             <Footer/>
+            {/*<ShowPlants/>*/}
         </div>
     );
 }
