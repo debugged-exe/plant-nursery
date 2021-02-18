@@ -1,7 +1,11 @@
 import React from "react";
 import imageUrl5 from "./Navleaf.jpg";
 import "./Footer.css";
-
+import "react-icons";
+import fbLogo from './facebook.svg';
+import gLogo from './mail.svg';
+import wLogo from './whatsapp.svg';
+import tLogo from './twitter.svg';
 function Footer() {
     return (
         <div className="body" style={{display: 'inline-block'}}>
@@ -13,11 +17,10 @@ function Footer() {
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum.</p>
                     <div className="socials">
-                        <a href="#"><i className="fa fa-facebook"></i></a>
-                        <a href="#"><i className="fa fa-twitter"></i></a>
-                        <a href="#"><i className="fa fa-dribble"></i></a>
-                        <a href="#"><i className="fa fa-youtube"></i></a>
-                        <a href="#"><i className="fa fa-tumblr"></i></a>
+                        <a href="#"><img src={fbLogo} style={{width:"80%"}}/></a>
+                        <a href="#"><img src={gLogo} style={{width:"80%"}}/></a>
+                        <a href="#"><img src={wLogo} style={{width:"80%"}}/></a>
+                        <a href="#"><img src={tLogo} style={{width:"80%"}}/></a>
                     </div>
                 </div>
                 <ul className="footer-right">
