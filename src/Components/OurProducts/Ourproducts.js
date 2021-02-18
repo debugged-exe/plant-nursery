@@ -29,8 +29,6 @@ const products = [
     }
 ];
 
-var i = 0;
-
 function Ourproducts() {
     return (
         <section id={'OurProducts'} className="pb4">
@@ -42,7 +40,7 @@ function Ourproducts() {
                 marginBottom: '5%',
                 paddingTop: '2%'
             }} data-aos={'slide-down'} data-aos-duration={'3000'}>
-                Our Products
+                Top Selling Products
             </div>
             <Carousel itemsToShow={1} data-aos={'fade-up'}>
                 <div className="mw9 center ma2 ph3-ns" style={{marginLeft: '5%', marginRight: '5%'}}>

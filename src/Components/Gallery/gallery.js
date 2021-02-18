@@ -6,6 +6,7 @@ import img4 from './plant4.png';
 function gallery() {
     return (
         <section style={{overflow:'hidden'}}>
+            <h1 className='f1 tc mb3 mt3'>What we Offer !</h1>
             <article className="cf">
                 <div className="fl w-50 w-25-ns pa3" data-aos={'fade-down'} data-aos-duration={'2000'}>
                     <a href="https://www.amazon.com/BEYONCÉ-Beyonce/dp/B00KCOMBJC/ref=sr_1_2_twi_lp__3?s=music&ie=UTF8&qid=1480422067&sr=1-2&keywords=beyonce&tag=mrmrs01-20"

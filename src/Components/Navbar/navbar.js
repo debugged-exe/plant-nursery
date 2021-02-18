@@ -1,47 +1,52 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
-function navbar() {
-    return (<nav className="db dt-l w-100 border-box pa3 ph5-l" data-aos={"fade-down"}>
-        <a className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+function navbar({setProduct}) {
+    return (
+    <nav className="db dt-l w-100 border-box pa3 ph5-l" data-aos={"fade-down"}>
+        
+        <Link className="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" title="Home" to='/'>
             <img src="http://tachyons.io/img/logo.jpg" className="dib w2 h2 br-100" alt="Site Name"/>
-        </a>
+        </Link>
+        
         <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
-            <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Home">Home</a>
+            
+            <Link className="link dim dark-gray f6 f5-l dib mr3 mr4-l" title="Home" to='/' >Home</Link>
             <div className={'dropdown'}>
-                <a href="javascript:void(0)" className="dropbtn link dim dark-gray f6 f5-l dib mr3 mr4-l">Seeds</a>
+                <Link className="dropbtn link dim dark-gray f6 f5-l dib mr3 mr4-l" to='/product' onClick={()=>setProduct('seeds')} >Seeds</Link>
                 <div className="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <Link to=''>Link 1</Link>
+                    <Link to=''>Link 2</Link>
+                    <Link to=''>Link 3</Link>
                 </div>
             </div>
             <div className={'dropdown'}>
-                <a href="javascript:void(0)" className="dropbtn link dim dark-gray f6 f5-l dib mr3 mr4-l">Plants</a>
+                <Link className="dropbtn link dim dark-gray f6 f5-l dib mr3 mr4-l" to='/product' onClick={()=>setProduct('flowers')}>Plants</Link>
                 <div className="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <Link to=''>Link 1</Link>
+                    <Link to=''>Link 2</Link>
+                    <Link to=''>Link 3</Link>
                 </div>
             </div>
             <div className={'dropdown'}>
-                <a href="javascript:void(0)" className="dropbtn link dim dark-gray f6 f5-l dib mr3 mr4-l">Pots</a>
+                <Link className="dropbtn link dim dark-gray f6 f5-l dib mr3 mr4-l">Pots</Link>
                 <div className="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <Link to=''>Link 1</Link>
+                    <Link to=''>Link 2</Link>
+                    <Link to=''>Link 3</Link>
                 </div>
             </div>
             <div className={'dropdown'}>
-                <a href="javascript:void(0)" className="dropbtn link dim dark-gray f6 f5-l dib mr3 mr4-l">Tools</a>
+                <Link className="dropbtn link dim dark-gray f6 f5-l dib mr3 mr4-l">Tools</Link>
                 <div className="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <Link to=''>Link 1</Link>
+                    <Link to=''>Link 2</Link>
+                    <Link to=''>Link 3</Link>
                 </div>
             </div>
-            <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Contact">Contact</a>
-            <a className="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#about" title="About">About us</a>
+            <Link className="link dim dark-gray f6 f5-l dib mr3 mr4-l" to="#contact" >Contact</Link>
+            <Link className="link dim dark-gray f6 f5-l dib mr3 mr4-l" to="#about">About us</Link>
         </div>
     </nav>);
 }
