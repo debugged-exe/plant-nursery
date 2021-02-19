@@ -3,7 +3,7 @@ import './about.css';
 import imageUrl from './plants.png';
 function About() {
     return (
-        <section id={'sectionAbout'} style={{overflow:'hidden'}} >
+        <section id={'about'} style={{overflow:'hidden'}} >
             <div className="mw9 center ma2 ph3-ns" style={{marginLeft: '5%', marginRight: '5%'}}>
                 <div data-aos={"fade-left"} style={{fontWeight: '700',fontSize: '3rem', textAlign: 'center',marginTop: '5%',marginBottom:'5%',paddingTop: '2%'}}>
                     About Us

@@ -1,6 +1,6 @@
 import React from "react";
-import imageUrl5 from "./Navleaf.jpg";
 import "./Footer.css";
+import Logo from './Logo.png';
 import {FiInstagram} from "react-icons/fi";
 import {SiGmail} from "react-icons/si";
 import {AiOutlineTwitter} from "react-icons/ai";
@@ -10,7 +10,7 @@ function Footer() {
         <div className="body" style={{display: 'inline-block'}}>
             <footer className="footer">
                 <div className="footer-left">
-                    <img src={imageUrl5} alt=""/>
+                    <img src={Logo} alt="" style={{backgroundColor:"#d7f3c2"}}/>
                     <p className={'p1'}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                         tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo

@@ -32,6 +32,36 @@ const flowers = [
         name: "Monstera",
         desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
         imgUrl: imgurl4
+    },
+    {
+        name: "plant 3",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "plant 4",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "plant 5",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "plant 6",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "plant 7",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "plant 8",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
     }
 ];
 

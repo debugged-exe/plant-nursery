@@ -33,6 +33,36 @@ const seeds = [
         name: "MonstSeed 1",
         desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
         imgUrl: imgurl4
+    },
+    {
+        name: "seed 3",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "seed 4",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "seed 5",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "seed 6",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "seed 7",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
+    },
+    {
+        name: "seed 8",
+        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        imgUrl: imgurl4
     }
 ];
 
