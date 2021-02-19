@@ -1,11 +1,10 @@
 import React from "react";
 import imageUrl5 from "./Navleaf.jpg";
 import "./Footer.css";
-import "react-icons";
-import fbLogo from './facebook.svg';
-import gLogo from './mail.svg';
-import wLogo from './whatsapp.svg';
-import tLogo from './twitter.svg';
+import {FiInstagram} from "react-icons/fi";
+import {SiGmail} from "react-icons/si";
+import {AiOutlineTwitter} from "react-icons/ai";
+import {FaWhatsapp} from "react-icons/fa";
 function Footer() {
     return (
         <div className="body" style={{display: 'inline-block'}}>
@@ -17,10 +16,10 @@ function Footer() {
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum.</p>
                     <div className="socials">
-                        <a href="#"><img src={fbLogo} style={{width:"80%"}}/></a>
-                        <a href="#"><img src={gLogo} style={{width:"80%"}}/></a>
-                        <a href="#"><img src={wLogo} style={{width:"80%"}}/></a>
-                        <a href="#"><img src={tLogo} style={{width:"80%"}}/></a>
+                        <a href={"#"}><FiInstagram size="2rem" color="white"/></a>
+                        <a href="#"><SiGmail size="2rem" color="white"/></a>
+                        <a href="#"><AiOutlineTwitter size="2rem" color="white"/></a>
+                        <a href="#"><FaWhatsapp size="2rem" color="white" /></a>
                     </div>
                 </div>
                 <ul className="footer-right">
@@ -58,7 +57,7 @@ function Footer() {
                 </ul>
             </footer>
             <footer className="pv4 ph3 ph5-m ph6-l white flex justify-center" style={{backgroundColor:'#015716'}}>
-                <small className="f6 db " style={{textAlign: 'center'}}>© 2021 <b className="ttu">Developed by Debugged.exe</b>., All Rights
+                <small className="f6 db" style={{textAlign: 'center'}}>© 2021 <b className="ttu">Developed by Debugged.exe</b>., All Rights
                     Reserved</small>
             </footer>
         </div>
