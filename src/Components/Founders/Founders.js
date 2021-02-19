@@ -15,44 +15,24 @@ function Founders() {
                     Our Founders
                 </h1>
                 <div className="flex justify-around items-center flex-wrap " >
-                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-right" data-aos-duration={'2000'} >
-                        <div className="tc">
-                            <img src={founderImg} className="br-100 h3 w3 dib" title="Founders"/>
-                                <h1 className="f4">Founder</h1>
-                                <hr className="mw3 bb bw1 b--black-10"/>
+                <div class="fl w-cent w-halfcent-ns  " >
+                    <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-right" data-aos-duration={'2000'}>
+                        <div class="tc">
+                            <img src={founderImg} class="br-100 h4 w4 dib ba b--black-05 pa2 " title="Founder photo" />
+                            <h1 class="f3 mb2">Mimi W.</h1>
+                            <h2 class="f5 fw4  mt0">  Founder  </h2>
                         </div>
-                        <p className="lh-copy measure center f6 black-70">
-                            Quite affectionate and outgoing.
-                            She loves to get chin scratches and will
-                            roll around on the floor waiting for you give her more of them.
-                        </p>
                     </article>
-                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-up" data-aos-duration={'2000'}>
-                        <div className="tc">
-                            <img src={coFounderImg} className="br-100 h3 w3 dib"
-                                 title="Photo of a kitty staring at you"/>
-                                <h1 className="f4">Co-Founder</h1>
-                                <hr className="mw3 bb bw1 b--black-10"/>
-                        </div>
-                        <p className="lh-copy measure center f6 black-70">
-                            Quite affectionate and outgoing.
-                            She loves to get chin scratches and will
-                            roll around on the floor waiting for you give her more of them.
-                        </p>
-                    </article>
-                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-left" data-aos-duration={'2000'}>
-                        <div className="tc">
-                            <img src="http://tachyons.io/img/avatar_1.jpg" className="br-100 h3 w3 dib"
-                                 title="Photo of a kitty staring at you" alt={'kk'}/>
-                                <h1 className="f4">Mimi Whitehouse</h1>
-                                <hr className="mw3 bb bw1 b--black-10"/>
-                        </div>
-                        <p className="lh-copy measure center f6 black-70">
-                            Quite affectionate and outgoing.
-                            She loves to get chin scratches and will
-                            roll around on the floor waiting for you give her more of them.
-                        </p>
-                    </article>
+                    </div>
+                    <div class="fl w-cent w-halfcent-ns  " >
+                        <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey" data-aos="slide-left" data-aos-duration={'2000'}>
+                            <div class="tc">
+                                <img src={coFounderImg} class="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
+                                <h1 class="f3 mb2">Mimi W.</h1>
+                                <h2 class="f5 fw4  mt0">Co-founder</h2>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
@@ -60,3 +40,4 @@ function Founders() {
 }
 
 export default Founders;
+

@@ -3,3 +3,130 @@
     padding-bottom: 5%;
     background-color: #d7f3c2;
 }
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.w-cent {
+    width: 100%;
+}
+
+
+
+.bg-near-white {
+    background-color: #f4f4f4;
+}
+
+.tc {
+    text-align: center;
+}
+
+@media screen and (min-width: 30em) {
+    .w-halfcent-ns {
+        width: 50%;
+    }
+}
+
+
+
+
+.b--black-10 {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.b--black-05 {
+    border-color: rgba(0, 0, 0, .05);
+}
+
+.br3 {
+    border-radius: .5rem;
+}
+
+.br-100 {
+    border-radius: 100%;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.fw4 {
+    font-weight: 400;
+}
+
+.h4 {
+    height: 8rem;
+}
+
+.mw5 {
+    max-width: 16rem;
+}
+
+.w4 {
+    width: 8rem;
+}
+
+
+
+.bg-white {
+    background-color: #fff;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.mb2 {
+    margin-bottom: .5rem;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mv3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.f3 {
+    font-size: 1.5rem;
+}
+
+.f5 {
+    font-size: 1rem;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 30em) {
+    .pa4-ns {
+        padding: 2rem;
+    }
+}
