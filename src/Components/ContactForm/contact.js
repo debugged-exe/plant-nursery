@@ -3,7 +3,7 @@ import 'tachyons';
 import './contact.css'
 function Contact() {
     return (
-        <div>
+        <div id='contact'>
         <div className='margin'></div>
         <section className='parallax' >
             <div className='parallax-inner flex flex-column justify-center items-center'>

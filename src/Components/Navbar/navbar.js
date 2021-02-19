@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {HashLink as Link} from 'react-router-hash-link';
 import './navbar.css';
 import Logo from './Logo.png';
 
@@ -11,14 +11,12 @@ function navbar({setProduct}) {
                 <span style={{fontSize: "2rem"}}>Rohit Nursery</span>
             </Link>
             <div className="db dtc-l v-mid w-100 w-75-l tr-l">
-                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/product'
-                      onClick={() => setProduct('seeds')}>Seeds</Link>
-                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/product'
-                      onClick={() => setProduct('flowers')}>Plants</Link>
-                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l">Pots</Link>
-                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l">Tools</Link>
-                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to="#contact">Contact</Link>
-                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to="#about">About us</Link>
+                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/seeds'>Seeds</Link>
+                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/flowers'>Plants</Link>
+                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/pots'>Pots</Link>
+                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/tools'>Tools</Link>
+                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to="/#contact">Contact</Link>
+                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to="/#about">About us</Link>
             </div>
         </nav>);
 }

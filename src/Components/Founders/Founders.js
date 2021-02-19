@@ -14,8 +14,8 @@ function Founders() {
                 <h1 className="tc" data-aos={"fade-up"} data-aos-duration={'2000'}>
                     Our Founders
                 </h1>
-                <div className="flex justify-around items-center flex-wrap " >
-                <div class="fl w-cent w-halfcent-ns  " >
+                <div className="flex justify-around items-center flex-wrap" >
+                <div class="fl w-cent w-halfcent-ns" >
                     <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-right" data-aos-duration={'2000'}>
                         <div class="tc">
                             <img src={founderImg} class="br-100 h4 w4 dib ba b--black-05 pa2 " title="Founder photo" />
@@ -24,7 +24,7 @@ function Founders() {
                         </div>
                     </article>
                     </div>
-                    <div class="fl w-cent w-halfcent-ns  " >
+                    <div class="fl w-cent w-halfcent-ns" >
                         <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey" data-aos="slide-left" data-aos-duration={'2000'}>
                             <div class="tc">
                                 <img src={coFounderImg} class="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />

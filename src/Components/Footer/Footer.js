@@ -10,7 +10,7 @@ function Footer() {
         <div className="body" style={{display: 'inline-block'}}>
             <footer className="footer">
                 <div className="footer-left">
-                    <img src={Logo} alt="" style={{backgroundColor:"#d7f3c2"}}/>
+                    <img src={Logo} alt="" style={{backgroundColor:"#d7f3c2", padding: "5px", borderRadius: "20px"}}/>
                     <p className={'p1'}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
                         tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
