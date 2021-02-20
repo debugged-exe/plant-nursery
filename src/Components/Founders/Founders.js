@@ -15,21 +15,21 @@ function Founders() {
                     Our Founders
                 </h1>
                 <div className="flex justify-around items-center flex-wrap" >
-                <div class="fl w-cent w-halfcent-ns" >
-                    <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-right" data-aos-duration={'2000'}>
-                        <div class="tc">
-                            <img src={founderImg} class="br-100 h4 w4 dib ba b--black-05 pa2 " title="Founder photo" />
-                            <h1 class="f3 mb2">Mimi W.</h1>
-                            <h2 class="f5 fw4  mt0">  Founder  </h2>
+                <div className="fl w-cent w-halfcent-ns" >
+                    <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" data-aos="slide-right" data-aos-duration={'2000'}>
+                        <div className="tc">
+                            <img src={founderImg} className="br-100 h4 w4 dib ba b--black-05 pa2 " title="Founder photo" />
+                            <h1 className="f3 mb2">Mimi W.</h1>
+                            <h2 className="f5 fw4  mt0">  Founder  </h2>
                         </div>
                     </article>
                     </div>
-                    <div class="fl w-cent w-halfcent-ns" >
-                        <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey" data-aos="slide-left" data-aos-duration={'2000'}>
-                            <div class="tc">
-                                <img src={coFounderImg} class="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
-                                <h1 class="f3 mb2">Mimi W.</h1>
-                                <h2 class="f5 fw4  mt0">Co-founder</h2>
+                    <div className="fl w-cent w-halfcent-ns" >
+                        <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey" data-aos="slide-left" data-aos-duration={'2000'}>
+                            <div className="tc">
+                                <img src={coFounderImg} className="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
+                                <h1 className="f3 mb2">Mimi W.</h1>
+                                <h2 className="f5 fw4  mt0">Co-founder</h2>
                             </div>
                         </article>
                     </div>
