@@ -8,23 +8,23 @@ import Carousel from 'react-elastic-carousel';
 
 const products = [
     {
-        name: "Money Plant",
-        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        name: "Cherry Tomato Seeds",
+        desc: "Cherry tomatoes are small round tomatoes that grow on a stem similar to how grapes do andare a great addition to salads, pastas, or salsa for a mouthful of flavour. Rich in antioxidants and numerous nutrients they are a growers joy. Extremely easy to grow, and apart from tasting great they also add a nice colour to your garden!",
         imgUrl: imgurl1
     },
     {
-        name: "Hanging plant",
-        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+      name: "Crassula Green Mini Plant",
+      desc: "Are you a sucker for succulents? The Crassula Green Mini will be your dream plant kid. One of the easiest houseplants to look after, the Crassula Green Mini boasts a lush foliage which beautifies any room. Also considered lucky as per Feng Shui for its coin like round plump leaves, so go on, bring some green home, the luck just tags along for free.",
         imgUrl: imgurl2
     },
     {
-        name: "Palm tree",
-        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+      name: "Football Ceramic Pot (5.3 Inch Diameter)",
+      desc:"Etch your home decor with the Football Planter and leave your guests pondering over your distinct taste and flair for unique objects. With this planter, you can now enhance your charming and aromatic flowers and foliage.",
         imgUrl: imgurl3
     },
     {
-        name: "Monstera",
-        desc: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+      name: "Pyramid Plastic Impulse Sprinkler",
+      desc:"The pulsating sprinkler head adjusts conveniently from partial to full circle. It provides full uniform coverage up to 60 feet in diameter and is effective for long-distance sprinkling.",
         imgUrl: imgurl4
     }
 ];
@@ -51,10 +51,8 @@ function Ourproducts() {
                         <div className="db dtc-ns v-mid ph2 pr0-ns pl3-ns" style={{paddingLeft: '1%'}}>
                             <h1><b>{products[0].name}</b></h1>
                             <p className="lh-copy ik">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry’s standard dummy text
-                                ever since the 1500s, when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen book.
+                                {products[0].desc}
+
                             </p>
                         </div>
                     </div>
@@ -68,10 +66,8 @@ function Ourproducts() {
                         <div className="db dtc-ns v-mid ph2 pr0-ns pl3-ns" style={{paddingLeft: '1%'}}>
                             <h1><b>{products[1].name}</b></h1>
                             <p className="lh-copy ik">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry’s standard dummy text
-                                ever since the 1500s, when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen book.
+                              {products[1].desc}
+
                             </p>
                         </div>
                     </div>
@@ -85,10 +81,8 @@ function Ourproducts() {
                         <div className="db dtc-ns v-mid ph2 pr0-ns pl3-ns" style={{paddingLeft: '1%'}}>
                             <h1><b>{products[2].name}</b></h1>
                             <p className="lh-copy ik">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry’s standard dummy text
-                                ever since the 1500s, when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen book.
+                              {products[2].desc}
+
                             </p>
                         </div>
                     </div>
@@ -102,10 +96,8 @@ function Ourproducts() {
                         <div className="db dtc-ns v-mid ph2 pr0-ns pl3-ns" style={{paddingLeft: '1%'}}>
                             <h1><b>{products[3].name}</b></h1>
                             <p className="lh-copy ik">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry’s standard dummy text
-                                ever since the 1500s, when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen book.
+                              {products[3].desc}
+
                             </p>
                         </div>
                     </div>

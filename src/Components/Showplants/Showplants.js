@@ -15,21 +15,21 @@ console.log(products);
                 marginBottom: '5%',
                 paddingTop: '2%'
             }} data-aos={'slide-down'} data-aos-duration={'3000'}>
-                
+
             </div>
             <div className="displaycarousel">
             <Carousel itemsToShow={1} data-aos={'fade-up'}>
                 {
-                products.filter((items,idx)=>idx<4)
+                products.filter((items,idx)=>idx<3)
                 .map((items,index)=>
                      <CarouselItem key={index} name={items.name} desc={items.desc} imgUrl = {items.imgUrl}  />
                 )
-                }   
+                }
             </Carousel>
             </div>
             <div className="displaycards cf flex-wrap">
             {
-                products.filter((items,idx)=>idx>=4)
+                products.filter((items,idx)=>idx>=3)
                 .map((items,index)=>
                 <div key={index} className="fl w-hundred w-50-m w-25-l ma2 tc pv4">
                 <div className='card ma3'>
@@ -43,8 +43,8 @@ console.log(products);
                 </div>
                 </div>
                 )
-                } 
-            
+                }
+
             </div>
         </section>
 
@@ -52,4 +52,3 @@ console.log(products);
 }
 
 export default Showplants;
-
