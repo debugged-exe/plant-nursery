@@ -36,6 +36,7 @@
 .fl {
     float: left;
     _display: inline;
+   
 }
 
 .w-hundred {
@@ -142,4 +143,8 @@
 .card:hover{
     transform: scale(1.08);
     box-shadow: 0 3px 1.2em rgba(0,  0, 0, 1.5);
+}
+
+.fon{
+    font-size: small;
 }

@@ -130,3 +130,29 @@
         padding: 2rem;
     }
 }
+
+.ret{
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+@media screen and (min-width: 30em) {
+    .dt-ns {
+        display: table;
+    }
+
+    .dtc-ns {
+        display: table-cell;
+    }
+
+    .dt--fixed-ns {
+        table-layout: fixed;
+        width: 100%;
+    }
+}
+
+.padd{
+    padding-right: 10px;
+    padding-left: 10px;
+}
