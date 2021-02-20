@@ -5,6 +5,7 @@ import {FiInstagram} from "react-icons/fi";
 import {SiGmail} from "react-icons/si";
 import {AiOutlineTwitter} from "react-icons/ai";
 import {FaWhatsapp} from "react-icons/fa";
+import {HashLink as Link} from "react-router-hash-link";
 
 function Footer() {
     return (
@@ -38,10 +39,10 @@ function Footer() {
                         <h2 className={'h2'}>Useful links</h2>
 
                         <ul className="box">
-                            <li><a href="#">Seeds</a></li>
-                            <li><a href="#">Plants</a></li>
-                            <li><a href="#">Pots</a></li>
-                            <li><a href="#">Tools</a></li>
+                            <li><Link to='/seeds/#OurProducts'>Seeds</Link></li>
+                            <li><Link to='/flowers/#OurProducts'>Plants</Link></li>
+                            <li><Link to='/pots/#OurProducts'>Pots</Link></li>
+                            <li><Link to='/tools/#OurProducts'>Tools</Link></li>
                         </ul>
                     </li>
                     <li>
