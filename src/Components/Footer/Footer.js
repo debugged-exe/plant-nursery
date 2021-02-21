@@ -9,7 +9,7 @@ import {HashLink as Link} from "react-router-hash-link";
 
 function Footer() {
     return (
-        <div className="body" style={{display: 'inline-block'}}>
+        <div className="body" style={{display: 'inline-block', width: "100%"}}>
             <footer className="footer">
                 <div className="footer-left">
                     <img src={Logo} alt="" style={{backgroundColor: "#d7f3c2", padding: "5px", borderRadius: "20px"}}/>
