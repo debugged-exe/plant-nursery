@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/plant-nursery/static/css/main.43dacdd0.chunk.css",
-    "main.js": "/plant-nursery/static/js/main.c3a1070c.chunk.js",
-    "main.js.map": "/plant-nursery/static/js/main.c3a1070c.chunk.js.map",
+    "main.js": "/plant-nursery/static/js/main.a5962d7a.chunk.js",
+    "main.js.map": "/plant-nursery/static/js/main.a5962d7a.chunk.js.map",
     "runtime-main.js": "/plant-nursery/static/js/runtime-main.c970a962.js",
     "runtime-main.js.map": "/plant-nursery/static/js/runtime-main.c970a962.js.map",
     "static/css/2.b68d8f6d.chunk.css": "/plant-nursery/static/css/2.b68d8f6d.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.b68d8f6d.chunk.css",
     "static/js/2.72205cfe.chunk.js",
     "static/css/main.43dacdd0.chunk.css",
-    "static/js/main.c3a1070c.chunk.js"
+    "static/js/main.a5962d7a.chunk.js"
   ]
 }
