@@ -18,7 +18,7 @@ function Founders() {
                 <div className="ret" >
                 <div className="dt-ns dt--fixed-ns  ">
                         <div className="dtc-ns tc pv4 padd">
-                        <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey" data-aos="slide-right" data-aos-duration={'2000'}>
+                        <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey shadow-2" data-aos="slide-right" data-aos-duration={'2000'}>
                             <div className="tc">
                                 <img src={coFounderImg1} className="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
                                 <h1 className="f3 mb2">Mimi W.</h1>
@@ -27,7 +27,7 @@ function Founders() {
                         </article>
                         </div>
                         <div className="dtc-ns tc pv4 padd">
-                        <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey" data-aos="slide-up" data-aos-duration={'2000'}>
+                        <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey shadow-2" data-aos="slide-up" data-aos-duration={'2000'}>
                             <div className="tc">
                                 <img src={founderImg} className="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
                                 <h1 className="f3 mb2">Mimi W.</h1>
@@ -36,7 +36,7 @@ function Founders() {
                         </article>
                         </div>
                         <div className="dtc-ns tc pv4 padd">
-                        <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey" data-aos="slide-left" data-aos-duration={'2000'}>
+                        <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey shadow-2" data-aos="slide-left" data-aos-duration={'2000'}>
                             <div className="tc">
                                 <img src={coFounderImg2} className="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
                                 <h1 className="f3 mb2">Mimi W.</h1>
