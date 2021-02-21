@@ -56,7 +56,7 @@ function gallery() {
                               className="bg-center cover aspect-ratio--object"></span>
                     </a>
                 </div>
-                <div className="fl w-100 w-25-ns pa3" data-aos={'fade-left'} data-aos-duration={'2000'}>
+                <div className="fl w-50 w-25-ns pa3" data-aos={'fade-left'} data-aos-duration={'2000'}>
                     <a href="https://www.amazon.com/Moon-Shaped-Pool-2-LP-Download/dp/B01FDF12UI/ref=sr_1_1_twi_lp__3?s=music&ie=UTF8&qid=1480370971&sr=1-1&keywords=moon+shaped+pool&tag=mrmrs01-20"
                        className="db aspect-ratio aspect-ratio--1x1 dim">
                         <span role="img" aria-label="Moon Shaped Pool 2"
