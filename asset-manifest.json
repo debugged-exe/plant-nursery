@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/plant-nursery/static/css/main.43dacdd0.chunk.css",
+    "main.js": "/plant-nursery/static/js/main.c3a1070c.chunk.js",
+    "main.js.map": "/plant-nursery/static/js/main.c3a1070c.chunk.js.map",
+    "runtime-main.js": "/plant-nursery/static/js/runtime-main.c970a962.js",
+    "runtime-main.js.map": "/plant-nursery/static/js/runtime-main.c970a962.js.map",
+    "static/css/2.b68d8f6d.chunk.css": "/plant-nursery/static/css/2.b68d8f6d.chunk.css",
+    "static/js/2.72205cfe.chunk.js": "/plant-nursery/static/js/2.72205cfe.chunk.js",
+    "static/js/2.72205cfe.chunk.js.map": "/plant-nursery/static/js/2.72205cfe.chunk.js.map",
+    "static/js/3.1d086d6b.chunk.js": "/plant-nursery/static/js/3.1d086d6b.chunk.js",
+    "static/js/3.1d086d6b.chunk.js.map": "/plant-nursery/static/js/3.1d086d6b.chunk.js.map",
+    "index.html": "/plant-nursery/index.html",
+    "static/css/2.b68d8f6d.chunk.css.map": "/plant-nursery/static/css/2.b68d8f6d.chunk.css.map",
+    "static/css/main.43dacdd0.chunk.css.map": "/plant-nursery/static/css/main.43dacdd0.chunk.css.map",
+    "static/js/2.72205cfe.chunk.js.LICENSE.txt": "/plant-nursery/static/js/2.72205cfe.chunk.js.LICENSE.txt",
+    "static/media/Co-Founder-image2.d6b8992f.jpeg": "/plant-nursery/static/media/Co-Founder-image2.d6b8992f.jpeg",
+    "static/media/Co-Founder_image.7b678967.jpeg": "/plant-nursery/static/media/Co-Founder_image.7b678967.jpeg",
+    "static/media/contact.css": "/plant-nursery/static/media/FormBg.bc2ad948.png",
+    "static/media/Founder_image.903dd4b0.jpeg": "/plant-nursery/static/media/Founder_image.903dd4b0.jpeg",
+    "static/media/Logo.e29b4d13.png": "/plant-nursery/static/media/Logo.e29b4d13.png",
+    "static/media/plant1.723c1b2e.png": "/plant-nursery/static/media/plant1.723c1b2e.png",
+    "static/media/plant2.a014ed59.png": "/plant-nursery/static/media/plant2.a014ed59.png",
+    "static/media/plant3.eefb83e2.png": "/plant-nursery/static/media/plant3.eefb83e2.png",
+    "static/media/plant4.f2d86305.png": "/plant-nursery/static/media/plant4.f2d86305.png",
+    "static/media/plants.723c1b2e.png": "/plant-nursery/static/media/plants.723c1b2e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c970a962.js",
+    "static/css/2.b68d8f6d.chunk.css",
+    "static/js/2.72205cfe.chunk.js",
+    "static/css/main.43dacdd0.chunk.css",
+    "static/js/main.c3a1070c.chunk.js"
+  ]
+}
