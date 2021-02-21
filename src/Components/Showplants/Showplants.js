@@ -27,11 +27,11 @@ console.log(products);
                 }
             </Carousel>
             </div>
-            <div className="displaycards cf flex-wrap">
+            <div className="displaycards cf flex-wrap flex justify-center">
             {
                 products.filter((items,idx)=>idx>=3)
                 .map((items,index)=>
-                <div key={index} className="fl w-hundred w-50-m w-25-l ma2 tc pv4 fon">
+                <div key={index} className="fl w-hundred w-50-m w-25-l ma2 tc pv4 fon flex justify-around">
                 <div className='card ma3'>
                     <div className='imgBox'>
                         <img src={`${items.imgUrl}`} alt='Taj Mahal'></img>
