@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/plant-nursery/static/css/main.e3f6afa7.chunk.css",
-    "main.js": "/plant-nursery/static/js/main.aa8ba604.chunk.js",
-    "main.js.map": "/plant-nursery/static/js/main.aa8ba604.chunk.js.map",
+    "main.js": "/plant-nursery/static/js/main.01a8250a.chunk.js",
+    "main.js.map": "/plant-nursery/static/js/main.01a8250a.chunk.js.map",
     "runtime-main.js": "/plant-nursery/static/js/runtime-main.c970a962.js",
     "runtime-main.js.map": "/plant-nursery/static/js/runtime-main.c970a962.js.map",
     "static/css/2.b68d8f6d.chunk.css": "/plant-nursery/static/css/2.b68d8f6d.chunk.css",
@@ -19,6 +19,15 @@
     "static/media/contact.css": "/plant-nursery/static/media/FormBg.bc2ad948.png",
     "static/media/Founder_image.903dd4b0.jpeg": "/plant-nursery/static/media/Founder_image.903dd4b0.jpeg",
     "static/media/Logo.e29b4d13.png": "/plant-nursery/static/media/Logo.e29b4d13.png",
+    "static/media/img1.cb46db81.jpeg": "/plant-nursery/static/media/img1.cb46db81.jpeg",
+    "static/media/img2.152553d7.jpeg": "/plant-nursery/static/media/img2.152553d7.jpeg",
+    "static/media/img3.e5070736.jpeg": "/plant-nursery/static/media/img3.e5070736.jpeg",
+    "static/media/img4.e32cb6c8.jpeg": "/plant-nursery/static/media/img4.e32cb6c8.jpeg",
+    "static/media/img5.1c0117b1.jpeg": "/plant-nursery/static/media/img5.1c0117b1.jpeg",
+    "static/media/img6.0e789431.jpeg": "/plant-nursery/static/media/img6.0e789431.jpeg",
+    "static/media/img7.eab19ff9.jpeg": "/plant-nursery/static/media/img7.eab19ff9.jpeg",
+    "static/media/img8.4466ff6d.jpeg": "/plant-nursery/static/media/img8.4466ff6d.jpeg",
+    "static/media/img9.c1afd00e.jpeg": "/plant-nursery/static/media/img9.c1afd00e.jpeg",
     "static/media/plant1.723c1b2e.png": "/plant-nursery/static/media/plant1.723c1b2e.png",
     "static/media/plant2.a014ed59.png": "/plant-nursery/static/media/plant2.a014ed59.png",
     "static/media/plant3.eefb83e2.png": "/plant-nursery/static/media/plant3.eefb83e2.png",
@@ -30,6 +39,6 @@
     "static/css/2.b68d8f6d.chunk.css",
     "static/js/2.72205cfe.chunk.js",
     "static/css/main.e3f6afa7.chunk.css",
-    "static/js/main.aa8ba604.chunk.js"
+    "static/js/main.01a8250a.chunk.js"
   ]
 }
