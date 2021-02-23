@@ -25,14 +25,23 @@ function Footer() {
                     </div>
                 </div>
                 <ul className="footer-right">
+                    {/*<li>*/}
+                    {/*    <h2 className={'h2'}>Product</h2>*/}
+                    {/*    <ul className="box">*/}
+                    {/*        <li><a href="#">Theme Design</a></li>*/}
+                    {/*        <li><a href="#">plugin Design</a></li>*/}
+                    {/*        <li><a href="#">wordpress</a></li>*/}
+                    {/*        <li><a href="#">joomla yemplate</a></li>*/}
+                    {/*        <li><a href="#">html template</a></li>*/}
+                    {/*    </ul>*/}
+                    {/*</li>*/}
                     <li>
-                        <h2 className={'h2'}>Product</h2>
+                        <h2 className={'h2'}>Contact Us at</h2>
                         <ul className="box">
-                            <li><a href="#">Theme Design</a></li>
-                            <li><a href="#">plugin Design</a></li>
-                            <li><a href="#">wordpress</a></li>
-                            <li><a href="#">joomla yemplate</a></li>
-                            <li><a href="#">html template</a></li>
+                            <li>+91 83294 04709</li>
+                            <li>+91 94210 16545</li>
+                            <li>+91 97307 62675</li>
+                            <li>+91 75880 32791</li>
                         </ul>
                     </li>
                     <li className="features">
@@ -62,15 +71,7 @@ function Footer() {
                                 target="_blank">Maharashtra, India</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <h2 className={'h2'}>Contact Info</h2>
-                        <ul className="box">
-                            <li>83294 04709</li>
-                            <li>94210 16545</li>
-                            <li>97307 62675</li>
-                            <li>75880 32791</li>
-                        </ul>
-                    </li>
+
                 </ul>
             </footer>
             <footer className="pv4 ph3 ph5-m ph6-l white flex justify-center" style={{backgroundColor: '#015716'}}>
