@@ -50,16 +50,25 @@ function Footer() {
                         <ul className="box">
                             <li><a
                                 href="https://www.google.com/maps/place/Rohit+Rose+Nursery/@18.1946358,74.7885891,17.44z/data=!4m5!3m4!1s0x3bc379cda998a349:0x8794d03056af9de3!8m2!3d18.1940078!4d74.790571"
-                                target="_blank">Kalas,Pune</a></li>
+                                target="_blank">Rohit rose nursery AP-kalas,</a></li>
                             <li><a
                                 href="https://www.google.com/maps/place/Rohit+Rose+Nursery/@18.1946358,74.7885891,17.44z/data=!4m5!3m4!1s0x3bc379cda998a349:0x8794d03056af9de3!8m2!3d18.1940078!4d74.790571"
-                                target="_blank">Maharashtra</a></li>
+                                target="_blank">Bhigwan-Walchandnagar road,</a></li>
                             <li><a
                                 href="https://www.google.com/maps/place/Rohit+Rose+Nursery/@18.1946358,74.7885891,17.44z/data=!4m5!3m4!1s0x3bc379cda998a349:0x8794d03056af9de3!8m2!3d18.1940078!4d74.790571"
-                                target="_blank">413104</a></li>
+                                target="_blank">Tal-Indapur, Dist-Pune 413105</a></li>
                             <li><a
                                 href="https://www.google.com/maps/place/Rohit+Rose+Nursery/@18.1946358,74.7885891,17.44z/data=!4m5!3m4!1s0x3bc379cda998a349:0x8794d03056af9de3!8m2!3d18.1940078!4d74.790571"
-                                target="_blank">India</a></li>
+                                target="_blank">Maharashtra, India</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 className={'h2'}>Contact Info</h2>
+                        <ul className="box">
+                            <li>83294 04709</li>
+                            <li>94210 16545</li>
+                            <li>97307 62675</li>
+                            <li>75880 32791</li>
                         </ul>
                     </li>
                 </ul>

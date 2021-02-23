@@ -21,7 +21,7 @@ function Founders() {
                         <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey shadow-2" data-aos="slide-right" data-aos-duration={'2000'}>
                             <div className="tc">
                                 <img src={coFounderImg1} className="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
-                                <h1 className="f3 mb2">Mimi W.</h1>
+                                <h1 className="f3 mb2">Mr. Balasaheb Gorakh Pansare </h1>
                                 <h2 className="f5 fw4  mt0">Co-founder</h2>
                             </div>
                         </article>
@@ -30,7 +30,7 @@ function Founders() {
                         <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey shadow-2" data-aos="slide-up" data-aos-duration={'2000'}>
                             <div className="tc">
                                 <img src={founderImg} className="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
-                                <h1 className="f3 mb2">Mimi W.</h1>
+                                <h1 className="f3 mb2">Mr. Rohit Vilas Pansare</h1>
                                 <h2 className="f5 fw4  mt0">Founder</h2>
                             </div>
                         </article>
@@ -39,7 +39,7 @@ function Founders() {
                         <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10 bg-light-grey shadow-2" data-aos="slide-left" data-aos-duration={'2000'}>
                             <div className="tc">
                                 <img src={coFounderImg2} className="br-100 h4 w4 dib ba b--black-05 pa2" title="co-founder photo" />
-                                <h1 className="f3 mb2">Mimi W.</h1>
+                                <h1 className="f3 mb2">Gorakh Pansare</h1>
                                 <h2 className="f5 fw4  mt0">Co-founder</h2>
                             </div>
                         </article>
