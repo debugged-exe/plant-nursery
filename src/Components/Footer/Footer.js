@@ -15,7 +15,7 @@ function Footer() {
                     <span style={{backgroundColor: "#d7f3c2",padding: "30px 10px 3px 10px",borderRadius: "50%"}}>
                         <img src={Logo} alt="" />
                     </span>
-                    <p className={'p1'}>Rohit rose nursery delivering quality plants and was established in the year of 1990. We are
+                    <p className={'p1'}>Rohit nursery delivering quality plants and was established in the year of 1990. We are
                             manufacture of flower plant, fruit plant and decorative garden plant from better
                             motherplant. our products are high quality.we are bealive to give matching plants in
                             different type of climate.</p>

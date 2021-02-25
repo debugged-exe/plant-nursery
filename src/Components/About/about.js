@@ -13,7 +13,7 @@ function About() {
                          data-aos={'fade-left'} data-aos-duration={'2000'}>
                         <h1><b>About Rohit Nursey</b></h1>
                         <p className="lh-copy ik">
-                            Rohit rose nursery delivering quality plants and was established in the year of 1990. We are
+                            Rohit nursery delivering quality plants and was established in the year of 1990. We are
                             manufacture of flower plant, fruit plant and decorative garden plant from better
                             motherplant. our products are high quality.we are bealive to give matching plants in
                             different type of climate.
