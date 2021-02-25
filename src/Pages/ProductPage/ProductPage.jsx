@@ -1,16 +1,16 @@
 import React from 'react';
 import Showplants from '../../Components/Showplants/Showplants';
 import pots from '../../Database/Pots';
-import flowers from '../../Database/Flowers';
+import plants from '../../Database/Plants';
 import seeds from '../../Database/Seeds';
 import tools from '../../Database/Tools';
 const ProductPage = ({product}) => {
 
     
         switch(product){
-            case 'flowers':
+            case 'plants':
                 return(
-                    <Showplants products = {flowers} />
+                    <Showplants products = {plants} />
                 );
                 
             case 'seeds':

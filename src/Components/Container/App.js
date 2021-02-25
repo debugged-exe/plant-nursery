@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer';
 import HomePage from "../../Pages/HomePage/HomePage";
 import seeds from '../../Database/Seeds';
 import {Route, Switch, HashRouter} from 'react-router-dom';
-import flowers from '../../Database/Flowers';
+import plants from '../../Database/Plants';
 import Showplants from "../Showplants/Showplants";
 import pots from '../../Database/Pots';
 import tools from '../../Database/Tools';
@@ -12,7 +12,7 @@ class App extends React.Component {
     constructor() {
         super();
         this.state = {
-            product: 'flowers',
+            product: '',
         }
     }
 
@@ -28,7 +28,7 @@ class App extends React.Component {
                     <Navbar setProduct={this.setProduct}/>
                     <Switch>
                         <Route exact path='/' component={HomePage}/>
-                        <Route exact path='/flowers' component={() => <Showplants products={flowers}/>} />
+                        <Route exact path='/plants' component={() => <Showplants products={plants}/>} />
                         <Route exact path='/seeds' component={() => <Showplants products={seeds}/>} />
                         <Route exact path='/pots' component={() => <Showplants products={pots}/>} />
                         <Route exact path='/tools' component={() => <Showplants products={tools}/>} />

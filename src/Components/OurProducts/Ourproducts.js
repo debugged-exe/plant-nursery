@@ -19,7 +19,7 @@ const products = [
     },
     {
       name: "Football Ceramic Pot (5.3 Inch Diameter)",
-      desc:"Etch your home decor with the Football Planter and leave your guests pondering over your distinct taste and flair for unique objects. With this planter, you can now enhance your charming and aromatic flowers and foliage.",
+      desc:"Etch your home decor with the Football Planter and leave your guests pondering over your distinct taste and flair for unique objects. With this planter, you can now enhance your charming and aromatic plants and foliage.",
         imgUrl: imgurl3
     },
     {

@@ -12,7 +12,7 @@ function navbar({setProduct}) {
             </Link>
             <div className="db dtc-l v-mid w-100 w-75-l tr-l">
                 <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/seeds'>Seeds</Link>
-                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/flowers'>Plants</Link>
+                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/plants'>Plants</Link>
                 <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/pots'>Pots</Link>
                 <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/tools'>Tools</Link>
                 <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to="/#contact">Contact</Link>

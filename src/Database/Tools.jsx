@@ -15,7 +15,7 @@ const tools = [
     },
     {
         name: "Pyramid Precision Pruner",
-        desc: "The Pyramid Precision Pruner is a small and durable tool that is mainly used for Bonsai tree cutting or for cutting flowers. The very useful narrow SK5 Japanese blades of this secateur cut very smoothly. It has a fixed blade with a hard PVC grip.",
+        desc: "The Pyramid Precision Pruner is a small and durable tool that is mainly used for Bonsai tree cutting or for cutting plants. The very useful narrow SK5 Japanese blades of this secateur cut very smoothly. It has a fixed blade with a hard PVC grip.",
         imgUrl: imgurl3
     },
     

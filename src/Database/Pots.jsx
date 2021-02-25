@@ -5,7 +5,7 @@ import imgurl4 from './Images/plant4.png';
 const pots = [
     {
         name: "Football Ceramic Pot (5.3 Inch Diameter)",
-        desc:"Etch your home decor with the Football Planter and leave your guests pondering over your distinct taste and flair for unique objects. With this planter, you can now enhance your charming and aromatic flowers and foliage.",
+        desc:"Etch your home decor with the Football Planter and leave your guests pondering over your distinct taste and flair for unique objects. With this planter, you can now enhance your charming and aromatic plants and foliage.",
         imgUrl: imgurl1
     },
     {
@@ -26,7 +26,7 @@ const pots = [
     },
     {
         name: "Handi Ceramic Pot (4 Inch Diameter)",
-        desc: "The Handi pot are some of the most versatile planters available in our entire range of planters. Pair these with your favorite flowers, herbs, fruits, and vegetable to create that trendy and cool appearance.",
+        desc: "The Handi pot are some of the most versatile planters available in our entire range of planters. Pair these with your favorite plants, herbs, fruits, and vegetable to create that trendy and cool appearance.",
         imgUrl: imgurl4
     },
     {
