@@ -7,7 +7,7 @@ import Peas from './Images/SeedImages/peas.jpg';
 //import Pomogranate from './Images/SeedImages/pomogranate.jpg';
 import Soyabean from './Images/SeedImages/soyabean.jpg';
 import SpinachSeed from './Images/SeedImages/spinach seeds.jpg';
-import Tomato from './Images/SeedImages/tomato.jpg';
+
 const seeds = [
   {
         name: "Bitter Gourd Seeds",

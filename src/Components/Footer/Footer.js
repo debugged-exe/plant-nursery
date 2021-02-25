@@ -15,10 +15,10 @@ function Footer() {
                     <span style={{backgroundColor: "#d7f3c2",padding: "30px 10px 3px 10px",borderRadius: "50%"}}>
                         <img src={Logo} alt="" />
                     </span>
-                    <p className={'p1'}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                        tempor invidunt
-                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores et ea rebum.</p>
+                    <p className={'p1'}>Rohit nursery delivering quality plants and was established in the year of 1990. We are
+                            manufacture of flower plant, fruit plant and decorative garden plant from better
+                            motherplant. our products are high quality.we are bealive to give matching plants in
+                            different type of climate.</p>
                     <div className="socials">
                         <a href={"#"}><FiInstagram size="2rem" color="white"/></a>
                         <a href="#"><SiGmail size="2rem" color="white"/></a>
@@ -57,9 +57,18 @@ function Footer() {
                         </ul>
                     </li>
                     <li>
+<<<<<<< HEAD
                         <h2 className={'h2'}><a
                             href="https://www.google.com/maps/place/Rohit+Rose+Nursery/@18.1946358,74.7885891,17.44z/data=!4m5!3m4!1s0x3bc379cda998a349:0x8794d03056af9de3!8m2!3d18.1940078!4d74.790571"
                             target="_blank">Address</a></h2>
+=======
+                        <h2 className={'h2'}
+                         href="https://www.google.com/maps/place/Rohit+Rose+Nursery/@18.1946358,74.7885891,17.44z/data=!4m5!3m4!1s0x3bc379cda998a349:0x8794d03056af9de3!8m2!3d18.1940078!4d74.790571"
+                         target="_blank"
+                        >
+                            Address
+                        </h2>
+>>>>>>> d04bee0ec148cfcc2f50b873b50fe1bbdd750e34
                         <ul className="box">
                             <li><a
                                 href="https://www.google.com/maps/place/Rohit+Rose+Nursery/@18.1946358,74.7885891,17.44z/data=!4m5!3m4!1s0x3bc379cda998a349:0x8794d03056af9de3!8m2!3d18.1940078!4d74.790571"

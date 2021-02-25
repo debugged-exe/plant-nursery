@@ -23,12 +23,6 @@ const pots = [
         desc: "This lovely planter will grace your garden arena in style. Meticulously designed it looks beautiful in the terra-cotta color. If you wish to plant directly into this, do not forget to drill a hole at the bottom of the pot. It comes in the following size 13.5 cm height, 15.5 cm width, and 13.5 cm depth.",
         imgUrl: AristoRainbowPlanter
     },
-    
-    {
-        name: "Watermelon Ceramic Planter (5.5 Inch Width)",
-        desc: "Bring a slice of refreshment and splash of soothing colours with this Watermelon pot. Whatever you plant in these would look gorgeous and will make the heads turn for sure. Beware! People would love to savour the Ceramic fruit.",
-        imgUrl: WatermelonCeramicPlanter
-    },
     {
         name: "Handi Ceramic Pot (4 Inch Diameter)",
         desc: "The Handi pot are some of the most versatile planters available in our entire range of planters. Pair these with your favorite plants, herbs, fruits, and vegetable to create that trendy and cool appearance.",
@@ -40,19 +34,24 @@ const pots = [
         imgUrl: SquareCeramicPot
     },
     {
-        name: "Tusker Ceramic Pot (4 Inch Diameter)",
-        desc: "Pamper your garden with this lovely Ceramic tusker pot. Elegant and full of allure the beautiful planter has been crafted specially for your favourite floral and gorgeous indoor plants.",
-        imgUrl: TuskerCeramicPot
-    },
-    {
         name: "Pipe Ceramic Pot (3.8 Inch Diameter)",
         desc: "Special plants deserve a special place. Hence we have crafted this lovely Ceramic pot for you. Place your favourite plant into this and let it flourish with pride.",
         imgUrl: PipeCeramicPot
     },
     {
+        name: "Watermelon Ceramic Planter (5.5 Inch Width)",
+        desc: "Bring a slice of refreshment and splash of soothing colours with this Watermelon pot. Whatever you plant in these would look gorgeous and will make the heads turn for sure. Beware! People would love to savour the Ceramic fruit.",
+        imgUrl: WatermelonCeramicPlanter
+    },
+    {
         name: "Star Ceramic Pot (4.2 Inch Width)",
         desc: "Break free from the monotonous shapes and add pots with unique and never-Sean-before form in your garden. Bring up your favourite plant in this vibrant and attractive orange star shaped pot and let people just peek into your garden for inspiration.",
         imgUrl: StarCeramicPot
+    },
+    {
+        name: "Tusker Ceramic Pot (4 Inch Diameter)",
+        desc: "Pamper your garden with this lovely Ceramic tusker pot. Elegant and full of allure the beautiful planter has been crafted specially for your favourite floral and gorgeous indoor plants.",
+        imgUrl: TuskerCeramicPot
     }
 ];
 
