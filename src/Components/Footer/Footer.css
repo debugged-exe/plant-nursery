@@ -29,9 +29,10 @@ footer{
 .footer-left img{
     width: 10%;
 }
-.h2{
+.h2>a{
     font-weight: 600;
     font-size: 17px;
+    color: white;
 }
 .footer ul{
     list-style: none;
