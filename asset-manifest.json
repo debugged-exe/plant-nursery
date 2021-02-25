@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.37cd3f1b.chunk.css",
-    "main.js": "/static/js/main.b50419a6.chunk.js",
-    "main.js.map": "/static/js/main.b50419a6.chunk.js.map",
+    "main.css": "/static/css/main.10f9aab0.chunk.css",
+    "main.js": "/static/js/main.5ddc2590.chunk.js",
+    "main.js.map": "/static/js/main.5ddc2590.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0c3be63f.js",
     "runtime-main.js.map": "/static/js/runtime-main.0c3be63f.js.map",
     "static/css/2.b68d8f6d.chunk.css": "/static/css/2.b68d8f6d.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.1d086d6b.chunk.js.map": "/static/js/3.1d086d6b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.b68d8f6d.chunk.css.map": "/static/css/2.b68d8f6d.chunk.css.map",
-    "static/css/main.37cd3f1b.chunk.css.map": "/static/css/main.37cd3f1b.chunk.css.map",
+    "static/css/main.10f9aab0.chunk.css.map": "/static/css/main.10f9aab0.chunk.css.map",
     "static/js/2.6ed60f87.chunk.js.LICENSE.txt": "/static/js/2.6ed60f87.chunk.js.LICENSE.txt",
-    "static/media/AloeVera.f31d762a.jpeg": "/static/media/AloeVera.f31d762a.jpeg",
+    "static/media/AloeVera.eef85d1e.jpeg": "/static/media/AloeVera.eef85d1e.jpeg",
     "static/media/Apple Ceramic Pot.6a34d292.jpg": "/static/media/Apple Ceramic Pot.6a34d292.jpg",
     "static/media/ArecaPalm.e7235288.jpeg": "/static/media/ArecaPalm.e7235288.jpeg",
     "static/media/Bougainvillea.7a2dc409.jpeg": "/static/media/Bougainvillea.7a2dc409.jpeg",
@@ -53,11 +53,6 @@
     "static/media/moringa(drumsticks,shevga).17530112.jpg": "/static/media/moringa(drumsticks,shevga).17530112.jpg",
     "static/media/peas.bc2d57b0.jpg": "/static/media/peas.bc2d57b0.jpg",
     "static/media/pipe ceramic pot.0cb369bd.jpg": "/static/media/pipe ceramic pot.0cb369bd.jpg",
-    "static/media/plant1.723c1b2e.png": "/static/media/plant1.723c1b2e.png",
-    "static/media/plant2.a014ed59.png": "/static/media/plant2.a014ed59.png",
-    "static/media/plant3.eefb83e2.png": "/static/media/plant3.eefb83e2.png",
-    "static/media/plant4.f2d86305.png": "/static/media/plant4.f2d86305.png",
-    "static/media/pomogranate.85356efc.jpg": "/static/media/pomogranate.85356efc.jpg",
     "static/media/pyramid double side rake and trowel.dabada3b.jpg": "/static/media/pyramid double side rake and trowel.dabada3b.jpg",
     "static/media/pyramid long handle cultivator.a387dc46.jfif": "/static/media/pyramid long handle cultivator.a387dc46.jfif",
     "static/media/pyramid plastic impulse sprinkler.9b88f985.jpg": "/static/media/pyramid plastic impulse sprinkler.9b88f985.jpg",
@@ -65,13 +60,14 @@
     "static/media/pyramid trowel with wooden handle and cushion grip.dc23901b.jfif": "/static/media/pyramid trowel with wooden handle and cushion grip.dc23901b.jfif",
     "static/media/soyabean.f9c37024.jpg": "/static/media/soyabean.f9c37024.jpg",
     "static/media/spinach seeds.58f8778b.jpg": "/static/media/spinach seeds.58f8778b.jpg",
+    "static/media/tomato.397a98d9.jpg": "/static/media/tomato.397a98d9.jpg",
     "static/media/watermelon cermic pot.84e592f5.jpg": "/static/media/watermelon cermic pot.84e592f5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0c3be63f.js",
     "static/css/2.b68d8f6d.chunk.css",
     "static/js/2.6ed60f87.chunk.js",
-    "static/css/main.37cd3f1b.chunk.css",
-    "static/js/main.b50419a6.chunk.js"
+    "static/css/main.10f9aab0.chunk.css",
+    "static/js/main.5ddc2590.chunk.js"
   ]
 }
