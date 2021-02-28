@@ -4,8 +4,8 @@ import Carousel from 'react-elastic-carousel';
 import CarouselItem from './CarouselItem';
 
 
-function Showplants({products}){
-console.log(products);
+function Showplants({products}) {
+    console.log(products);
     return (
         <section id={'OurProducts'} className="pb4 chan">
             <div style={{
@@ -18,31 +18,31 @@ console.log(products);
 
             </div>
             <div className="displaycarousel">
-            <Carousel itemsToShow={1} data-aos={'fade-up'}>
-                {
-                products.filter((items,idx)=>idx<3)
-                .map((items,index)=>
-                     <CarouselItem key={index} name={items.name} desc={items.desc} imgUrl = {items.imgUrl}  />
-                )
-                }
-            </Carousel>
+                <Carousel itemsToShow={1} data-aos={'fade-up'}>
+                    {
+                        products.filter((items, idx) => idx < 3)
+                            .map((items, index) =>
+                                <CarouselItem key={index} name={items.name} desc={items.desc} imgUrl={items.imgUrl}/>
+                            )
+                    }
+                </Carousel>
             </div>
             <div className="displaycards cf flex-wrap flex justify-center">
-            {
-                products.filter((items,idx)=>idx>=3)
-                .map((items,index)=>
-                <div key={index} className="fl w-hundred w-50-m w-25-l ma2 tc pv4 fon flex justify-around">
-                <div className='card ma3'>
-                    <div className='imgBox'>
-                        <img src={`${items.imgUrl}`} alt='Taj Mahal'></img>
-                    </div>
-                    <div className='content'>
-                        <h2>{items.name}</h2>
-                        <p>{items.desc}</p>
-                    </div>
-                </div>
-                </div>
-                )
+                {
+                    products.filter((items, idx) => idx >= 3)
+                        .map((items, index) =>
+                            <div key={index} className="flex flex-wrap items-center justify-around">
+                                <div className='card'>
+                                    <div>
+                                        <img className={'card-image'} style={{height: "200px", width: "200px",objectFit: "cover"}}src={`${items.imgUrl}`} alt='Taj Mahal'></img>
+                                    </div>
+                                    <div>
+                                        <div className="card-title">{items.name}</div>
+                                        <div>{items.desc}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        )
                 }
 
             </div>

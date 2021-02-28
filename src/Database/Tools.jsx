@@ -26,7 +26,7 @@ const tools = [
     
     {
         name: "Falcon Single Prong Weeder with Plastic Handle",
-        desc: "The Falcon Single Prong Weeder with Plastic Handle is an essential tool used by every gardener for removing weeds and also o dig holes to sow seeds. It is perfectly sized for flower beds and small vegetable gardens. It comes with a plastic handle for a powerful and firm grip.",
+        desc: "The Falcon Single Prong Weeder with Plastic Handle is an essential tool used by every gardener for removing weeds and also o dig holes to sow seeds.",
         imgUrl: FalconSingleProngWeeder
     },
     {
@@ -46,12 +46,12 @@ const tools = [
     },
     {
         name: "Pyramid Double Side Rake & Trowel",
-        desc: "The Pyramid Double Side Rake & Trowel is highly beneficial for your garden. It clears leaves, grass, and other debris with the rake on one side and digs, scoops, and moves dirt with the Trowel the other side. It has a body of green-coated polished steel and a plastic handle for a comfortable and firm grip.",
+        desc: "The Pyramid Double Side Rake & Trowel is highly beneficial for your garden. It clears leaves, grass, and other debris with the rake on one side and digs, scoops, and moves dirt with the Trowel the other side. ",
         imgUrl: PyramidDoubleSideRakeTrowel
     },
     {
         name: "Pyramid Trowel with Wooden Handle and Cushion Grip",
-        desc: "This Pyramid Trowel is the perfect tool to reduce hand fatigue while digging in the garden. It features a cushioned, wooden handle that provides excellent comfort and control, and the rust-resistant, extra-large powder-coated steel blade features a sharpened black edge to cut into the ground with ease.",
+        desc: "This Pyramid Trowel is the perfect tool to reduce hand fatigue while digging in the garden.",
         imgUrl: PyramidTrowelWithWoodenHandleAndCushionGrip
     }
 ];

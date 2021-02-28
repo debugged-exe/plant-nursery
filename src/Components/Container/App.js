@@ -8,6 +8,7 @@ import plants from '../../Database/Plants';
 import Showplants from "../Showplants/Showplants";
 import pots from '../../Database/Pots';
 import tools from '../../Database/Tools';
+import PlantPage from '../../Pages/PlantPage/PlantPage';
 class App extends React.Component {
     constructor() {
         super();
@@ -28,7 +29,7 @@ class App extends React.Component {
                     <Navbar setProduct={this.setProduct}/>
                     <Switch>
                         <Route exact path='/' component={HomePage}/>
-                        <Route exact path='/plants' component={() => <Showplants products={plants}/>} />
+                        <Route exact path='/plants' component={() => <PlantPage/>} />
                         <Route exact path='/seeds' component={() => <Showplants products={seeds}/>} />
                         <Route exact path='/pots' component={() => <Showplants products={pots}/>} />
                         <Route exact path='/tools' component={() => <Showplants products={tools}/>} />

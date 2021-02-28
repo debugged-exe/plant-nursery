@@ -26,7 +26,7 @@ const seeds = [
     },
     
     {
-        name: "Moringa(drumsticks,shevga) Seeds",
+        name: "Moringa(shevga) Seeds",
         desc: "Shevga seeds and leaves are rich in sulfur-containing compounds called glucosinolates, which may have anticancer properties. Crop-duration: 35-37 weeks",
         imgUrl: Moringa
     },
