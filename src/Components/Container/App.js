@@ -25,6 +25,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
+               
                 <HashRouter basename='/'>
                     <Navbar setProduct={this.setProduct}/>
                     <Switch>

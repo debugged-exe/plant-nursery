@@ -1,6 +1,6 @@
 import React from 'react';
 import Showplants from '../../Components/Showplants/Showplants';
-import plants from '../../Database/Plants';
+import {plants} from '../../Database/Plants';
 import Carousel from "react-elastic-carousel";
 import CarouselItem from "../../Components/Showplants/CarouselItem";
 import './PlantPage.css';

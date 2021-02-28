@@ -2,7 +2,7 @@ import React from 'react';
 import './Ourproducts.css';
 import Carousel from 'react-elastic-carousel';
 import seeds from '../../Database/Seeds';
-import plants from '../../Database/Plants';
+import { plants }from '../../Database/Plants';
 import pots from '../../Database/Pots';
 import tools from '../../Database/Tools';
 function Ourproducts() {

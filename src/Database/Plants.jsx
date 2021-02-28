@@ -7,6 +7,18 @@ import GoldenPothos from './Images/PlantImages/GoldenPothos.jpeg';
 import ChineseEvergreen from './Images/PlantImages/ChineseEvergreen.jpeg';
 import PeaceLily from './Images/PlantImages/PeaceLily.jpeg';
 import Bougainvillea from './Images/PlantImages/Bougainvillea.jpeg';
+import fruit1 from './Images/PlantImages/Fruit Plants/fruit1.jpeg';
+import fruit2 from './Images/PlantImages/Fruit Plants/fruit2.jpeg';
+import fruit3 from './Images/PlantImages/Fruit Plants/fruit3.jpeg';
+import fruit4 from './Images/PlantImages/Fruit Plants/fruit4.jpeg';
+import decorative1 from './Images/PlantImages/Decorative Plants/decorative1.jpeg';
+import decorative2 from './Images/PlantImages/Decorative Plants/decorative2.jpeg';
+import decorative3 from './Images/PlantImages/Decorative Plants/decorative3.jpeg';
+import decorative4 from './Images/PlantImages/Decorative Plants/decorative4.jpeg';
+import palm1 from './Images/PlantImages/Palm Plants/palm1.jpeg';
+import palm2 from './Images/PlantImages/Palm Plants/palm2.jpeg';
+import palm3 from './Images/PlantImages/Palm Plants/palm3.jpeg';
+import palm4 from './Images/PlantImages/Palm Plants/palm4.jpeg';
 const plants = [
     {
         name: "Areca Palm",
@@ -57,4 +69,64 @@ const plants = [
 
 ];
 
-export default plants;
+const fruitplants=[
+    {
+        name:"fruit1",
+        imgUrl: Bougainvillea,
+    },
+    {
+        name:"fruit2",
+        imgUrl: Bougainvillea,
+    },
+    {
+        name:"fruit3",
+        imgUrl: Bougainvillea,
+    },
+    {
+        name:"fruit4",
+        imgUrl: Bougainvillea,
+    }
+
+];
+
+const decorativeplants=[
+    {
+        name:"decorative1",
+        imgUrl: decorative1,
+    },
+    {
+        name:"decorative2",
+        imgUrl: decorative2,
+    },
+    {
+        name:"decorative3",
+        imgUrl: decorative3,
+    },
+    {
+        name:"decorative4",
+        imgUrl: decorative4,
+    }
+
+];
+
+const palmplants=[
+    {
+        name:"palm1",
+        imgUrl: palm1,
+    },
+    {
+        name:"palm2",
+        imgUrl: palm2,
+    },
+    {
+        name:"palm3",
+        imgUrl: palm3,
+    },
+    {
+        name:"palm4",
+        imgUrl: palm4,
+    }
+
+];
+
+export  { plants , fruitplants , decorativeplants , palmplants };
