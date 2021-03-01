@@ -50,8 +50,8 @@ function Footer() {
                         <h2 className={'h2'}>Useful links</h2>
 
                         <ul className="box">
-                            <li><Link to='/seeds/#OurProducts'>Seeds</Link></li>
                             <li><Link to='/plants/#OurProducts'>Plants</Link></li>
+                            <li><Link to='/seeds/#OurProducts'>Seeds</Link></li>
                             <li><Link to='/pots/#OurProducts'>Pots</Link></li>
                             <li><Link to='/tools/#OurProducts'>Tools</Link></li>
                         </ul>
