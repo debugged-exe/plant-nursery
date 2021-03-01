@@ -19,6 +19,10 @@ import palm1 from './Images/PlantImages/Palm Plants/palm1.jpeg';
 import palm2 from './Images/PlantImages/Palm Plants/palm2.jpeg';
 import palm3 from './Images/PlantImages/Palm Plants/palm3.jpeg';
 import palm4 from './Images/PlantImages/Palm Plants/palm4.jpeg';
+import flower1 from  './Images/PlantImages/Flower Plants/flower1.jpeg';
+import flower2 from  './Images/PlantImages/Flower Plants/flower2.jpeg';
+import flower3 from  './Images/PlantImages/Flower Plants/flower3.jpeg';
+import flower4 from  './Images/PlantImages/Flower Plants/flower4.jpeg';
 const plants = [
     {
         name: "Areca Palm",
@@ -72,23 +76,42 @@ const plants = [
 const fruitplants=[
     {
         name:"fruit1",
-        imgUrl: Bougainvillea,
+        imgUrl: fruit1,
     },
     {
         name:"fruit2",
-        imgUrl: Bougainvillea,
+        imgUrl: fruit2,
     },
     {
         name:"fruit3",
-        imgUrl: Bougainvillea,
+        imgUrl: fruit3,
     },
     {
         name:"fruit4",
-        imgUrl: Bougainvillea,
+        imgUrl: fruit4,
     }
 
 ];
 
+const flowerplants=[
+    {
+        name:"flower1",
+        imgUrl: flower1,
+    },
+    {
+        name:"flower2",
+        imgUrl: flower2,
+    },
+    {
+        name:"flower3",
+        imgUrl: flower3,
+    },
+    {
+        name:"flower4",
+        imgUrl: flower4,
+    }
+
+];
 const decorativeplants=[
     {
         name:"decorative1",
@@ -129,4 +152,4 @@ const palmplants=[
 
 ];
 
-export  { plants , fruitplants , decorativeplants , palmplants };
+export  { plants , fruitplants , decorativeplants , palmplants,flowerplants };

@@ -1,3 +1,43 @@
 #plant-section{
     background-color: #bbe09f;
 }
+.fruit-title {
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 550;
+    color: #6faf46;
+}
+.plant-card {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    background-color: #6faf46;
+    margin: 5% 2% 5% 2%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.plant-card-image {
+    width: 100%;
+    object-fit: 100%;
+}
+
+.plant-card-title {
+    font-size: 2rem;
+}
+.plant-button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.plant-button-success {
+    background-color: #6faf46;
+} /* Green */
+.plant-button-success:hover {
+    background-color: #46a049;
+}
