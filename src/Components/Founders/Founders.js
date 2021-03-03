@@ -50,7 +50,7 @@ function Founders() {
                                 <div className="tc">
                                     <img src={coFounderImg2} className="br-100 h4 w4 dib ba b--black-05 pa2"
                                          title="co-founder photo"/>
-                                    <h1 className="f3 mb2">Mr.Gorakh Pansare</h1>
+                                    <h1 className="f3 mb2">Mr.Gorakh Anna Pansare</h1>
                                     <h2 className="f5 fw4  mt0">Co-founder</h2>
                                 </div>
                             </article>

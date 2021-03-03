@@ -75,19 +75,19 @@ const plants = [
 
 const fruitplants=[
     {
-        name:"fruit1",
+        name:"Coconut",
         imgUrl: fruit1,
     },
     {
-        name:"fruit2",
+        name:"Anar",
         imgUrl: fruit2,
     },
     {
-        name:"fruit3",
+        name:"Fig",
         imgUrl: fruit3,
     },
     {
-        name:"fruit4",
+        name:"Guava",
         imgUrl: fruit4,
     }
 
@@ -95,38 +95,37 @@ const fruitplants=[
 
 const flowerplants=[
     {
-        name:"flower1",
+        name:"Rose",
+        imgUrl: flower4,
+    },
+    {
+        name:"Hibiscus",
         imgUrl: flower1,
     },
     {
-        name:"flower2",
+        name:"Mogra",
         imgUrl: flower2,
     },
     {
-        name:"flower3",
+        name:"Ixora",
         imgUrl: flower3,
-    },
-    {
-        name:"flower4",
-        imgUrl: flower4,
     }
-
 ];
 const decorativeplants=[
     {
-        name:"decorative1",
+        name:"Morpankhi",
         imgUrl: decorative1,
     },
     {
-        name:"decorative2",
+        name:"Safari",
         imgUrl: decorative2,
     },
     {
-        name:"decorative3",
+        name:"Cypress",
         imgUrl: decorative3,
     },
     {
-        name:"decorative4",
+        name:"Khalifa",
         imgUrl: decorative4,
     }
 
@@ -134,19 +133,19 @@ const decorativeplants=[
 
 const palmplants=[
     {
-        name:"palm1",
+        name:"RK Palm",
         imgUrl: palm1,
     },
     {
-        name:"palm2",
+        name:"FoxTail",
         imgUrl: palm2,
     },
     {
-        name:"palm3",
+        name:"FishTail",
         imgUrl: palm3,
     },
     {
-        name:"palm4",
+        name:"Table Palm",
         imgUrl: palm4,
     }
 
