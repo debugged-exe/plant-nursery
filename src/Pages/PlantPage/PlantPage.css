@@ -7,7 +7,6 @@
     padding-top: 20px;
     text-align: center;
     font-weight: 550;
-    color: #6faf46;
 }
 .plant-card {
     width: 300px;
@@ -15,7 +14,7 @@
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
     text-align: center;
     background-color: #6faf46;
-    margin: 5% 2% 5% 2%;
+    margin: 5% 7%;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
     color: white;
