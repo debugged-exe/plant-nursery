@@ -45,7 +45,7 @@ const pots = [
     },
     {
         name: "Star Ceramic Pot (4.2 Inch Width)",
-        desc: "Break free from the monotonous shapes and add pots with unique and never-Sean-before form in your garden. Bring up your favourite plant in this vibrant and attractive orange star shaped pot and let people just peek into your garden for inspiration.",
+        desc: "Break free from the monotonous shapes and add pots with unique and never seen before form in your garden. Bring up your favourite plant in this vibrant and attractive orange star shaped pot and let people just peek into your garden for inspiration.",
         imgUrl: StarCeramicPot
     },
     {
