@@ -12,13 +12,12 @@ function Footer() {
         <div className="body" style={{display: 'inline-block', width: "100%"}}>
             <footer className="footer">
                 <div className="footer-left">
-                    <span style={{backgroundColor: "#d7f3c2",padding: "30px 10px 3px 10px",borderRadius: "50%"}}>
-                        <img src={Logo} alt="" />
+                    <span style={{backgroundColor: "#d7f3c2", padding: "30px 10px 3px 10px", borderRadius: "50%"}}>
+                        <img src={Logo} alt=""/>
                     </span>
-                    <p className={'p1'}>Rohit nursery delivering quality plants and was established in the year of 1990. We are
-                            manufacture of flower plant, fruit plant and decorative garden plant from better
-                            mother plant. Our products are high quality.We are believe to give matching plants in
-                            different type of climate.</p>
+                    <p className={'p1'}>Rohit nursery has been delivering premium quality plants since 1990. We
+                        manufacture flower plant, fruit plant and decorative garden plant from better mother plants.We
+                        are believe to provide you plants matching to your personal and climatic needs.</p>
                     <div className="socials">
                         <a href={"#"}><FiInstagram size="2rem" color="white"/></a>
                         <a href="#"><SiGmail size="2rem" color="white"/></a>

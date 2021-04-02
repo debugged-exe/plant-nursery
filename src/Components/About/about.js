@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import imgAbout from './imgabout.jpeg';
+
 function About() {
     return (
         <section id={'about'} style={{overflow: 'hidden'}}>
@@ -13,10 +14,9 @@ function About() {
                          data-aos={'fade-left'} data-aos-duration={'2000'}>
                         <h1><b>About Rohit Nursey</b></h1>
                         <p className="lh-copy ik">
-                            Rohit nursery delivering quality plants and was established in the year of 1990. We are
-                            manufacture of flower plant, fruit plant and decorative garden plant from better
-                            mother plant. Our products are high quality.We are believe to give matching plants in
-                            different type of climate.
+                            Rohit nursery has been delivering premium quality plants since 1990. We manufacture flower
+                            plants, fruit plants and decorative garden plants from better mother plants.We are believe to
+                            provide you plants matching to your personal and climatic needs.
                         </p>
                     </div>
                 </div>
