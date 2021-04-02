@@ -17,7 +17,7 @@ function Footer() {
                     </span>
                     <p className={'p1'}>Rohit nursery has been delivering premium quality plants since 1990. We
                         manufacture flower plant, fruit plant and decorative garden plant from better mother plants.We
-                        are believe to provide you plants matching to your personal and climatic needs.</p>
+                        believe to provide you plants matching to your personal and climatic needs.</p>
                     <div className="socials">
                         <a href={"#"}><FiInstagram size="2rem" color="white"/></a>
                         <a href="#"><SiGmail size="2rem" color="white"/></a>

@@ -15,7 +15,7 @@ function About() {
                         <h1><b>About Rohit Nursey</b></h1>
                         <p className="lh-copy ik">
                             Rohit nursery has been delivering premium quality plants since 1990. We manufacture flower
-                            plants, fruit plants and decorative garden plants from better mother plants.We are believe to
+                            plants, fruit plants and decorative garden plants from better mother plants.We believe to
                             provide you plants matching to your personal and climatic needs.
                         </p>
                     </div>
