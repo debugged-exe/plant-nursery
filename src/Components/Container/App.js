@@ -3,7 +3,7 @@ import Navbar from '../Navbar/navbar';
 import Footer from '../Footer/Footer';
 import HomePage from "../../Pages/HomePage/HomePage";
 import seeds from '../../Database/Seeds';
-import {Route, Switch, HashRouter} from 'react-router-dom';
+import {Route, Switch, BrowserRouter} from 'react-router-dom';
 import plants from '../../Database/Plants';
 import Showplants from "../Showplants/Showplants";
 import pots from '../../Database/Pots';
@@ -26,7 +26,7 @@ class App extends React.Component {
         return (
             <div>
                
-                <HashRouter basename='/'>
+                <BrowserRouter>
                     <Navbar setProduct={this.setProduct}/>
                     <Switch>
                         <Route exact path='/' component={HomePage}/>
@@ -36,7 +36,7 @@ class App extends React.Component {
                         <Route exact path='/tools' component={() => <Showplants products={tools}/>} />
                     </Switch>
                     <Footer/>
-                </HashRouter>
+                </BrowserRouter>
             </div>
         );
 
